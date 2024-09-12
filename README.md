@@ -66,6 +66,7 @@ Here are some key insights gathered from the dashboard:
 4. **Country Differences**: Notable differences were found in attitudes across countries, with Southern European nations showing greater concern for energy prices, while Northern European nations were more focused on the environmental impact.
 
 ## Dashboard
+<img src="data/Europe-Climate-Change-Dashboard.png" alt="Dashboard Screenshot" width="600" height="auto"/>
 
 ![Dashboard Screenshot](data/Europe-Climate-Change-Dashboard.png)
 
