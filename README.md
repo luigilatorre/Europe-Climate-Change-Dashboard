@@ -66,6 +66,8 @@ Here are some key insights gathered from the dashboard:
 
 ## Dashboard
 
+![Dashboard Screenshot](data/Europe-Climate-Change-Dashboard.png)
+
 The final dashboard was built with user experience in mind, allowing for easy exploration of climate attitudes across countries. Users can filter by country, energy source, and concern level. The dashboard is available in the Tableau workbook `Climate_Change_Dashboard.twbx`.
 
 ## Conclusion
