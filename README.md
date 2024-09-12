@@ -4,6 +4,19 @@
 
 In this project, I examined European attitudes towards climate change using data from the European Social Survey (ESS) Round 8 (2016/17). As a data journalist, I sought to understand the prevailing concerns regarding climate change across different European countries. The analysis is presented through an interactive dashboard built in Tableau, showcasing key findings on public opinions about climate change, energy sources, and cross-country comparisons.
 
+```/European-Climate-Change-Attitudes
+│
+├── /data/
+│   └── Climate Data Clean.xlsx      # Cleaned dataset for the analysis
+│
+├── /visualizations/
+│   └── Climate_Change_Dashboard.twbx # File .twbx of Tableau with the dashboard
+│
+├── /documentation/
+│   └── ESS Documentation.pdf        # Complete ESS survey documentation
+│
+└── README.md                        # Project overview and instructions
+```
 ## The Dataset
 
 The dataset used for this analysis comes from the ESS Round 8 Full Data with over 40,000 respondents across 23 countries. The variables of interest were extracted from the Climate Change section of the survey, with pre-cleaned data provided in the file `Climate Data Clean.xlsx`. These questions focus on several aspects of climate change, including:
