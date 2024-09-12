@@ -56,7 +56,7 @@ Our analysis revealed several notable insights:
 4. **Regional Differences**: Southern European countries tend to focus more on energy pricing concerns, while Northern European nations prioritize environmental impact.
 
 ## Interactive Dashboard
-![Dashboard Screenshot](data/Europe-Climate-Change-Dashboard.png)
+<img src="data/Europe-Climate-Change-Dashboard.png" alt="Dashboard Screenshot" width="700" height="auto"/>
 
 Our Tableau dashboard offers an intuitive interface for exploring these climate attitudes. Users can filter by country, energy source, and concern level, providing a customizable research experience.
 
