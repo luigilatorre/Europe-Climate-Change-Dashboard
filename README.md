@@ -17,9 +17,10 @@ In this project, I examined European attitudes towards climate change using data
 │
 └── README.md                        # Project overview and instructions
 ```
+
 ## The Dataset
 
-The dataset used for this analysis comes from the ESS Round 8 Full Data with over 40,000 respondents across 23 countries. The variables of interest were extracted from the Climate Change section of the survey, with pre-cleaned data provided in the file `Climate Data Clean.xlsx`. These questions focus on several aspects of climate change, including:
+The dataset used for this analysis comes from the ESS Round 8 Full Data with over 40,000 respondents across 23 countries. The variables of interest were extracted from the Climate Change section of the survey, with pre-cleaned data provided in the file [`Climate Data Clean.xlsx`](data/Climate%20Data%20Clean.xlsx). These questions focus on several aspects of climate change, including:
 
 - How worried Europeans are about climate change
 - Preferences for various energy sources (e.g., solar, wind, coal)
@@ -34,13 +35,13 @@ During the course of the analysis, I aimed to answer the following questions:
 3. What were European preferences towards different energy sources (solar, wind, coal, etc.)?
 4. How did these opinions differ between European countries?
 
-These questions guided my analysis and visualization, leading to the creation of an interactive dashboard in Tableau, which enables users to explore European perspectives on climate change in 2016-17.
+These questions guided my analysis and visualization, leading to the creation of an interactive dashboard in Tableau, available in the file [`Climate_Change_Dashboard.twbx`](visualizations/Climate_Change_Dashboard.twbx), which enables users to explore European perspectives on climate change in 2016-17.
 
 ## Methodology
 
 ### Data Preparation
 
-The data was partially cleaned in the provided file. Missing value codes (e.g., 55, 66, 77) were replaced with NA to facilitate a smooth analysis. Further cleaning steps involved filtering the dataset to focus on relevant variables for climate change and energy preferences.
+The data was partially cleaned in the provided file [`Climate Data Clean.xlsx`](data/Climate%20Data%20Clean.xlsx). Missing value codes (e.g., 55, 66, 77) were replaced with NA to facilitate a smooth analysis. Further cleaning steps involved filtering the dataset to focus on relevant variables for climate change and energy preferences.
 
 ### Visualization and Analysis
 
@@ -50,7 +51,7 @@ Using Tableau, I created visualizations that adhere to the principles of Graphic
 - Visualize preferences for different energy sources across European countries.
 - Compare attitudes across countries using geographic maps and bar charts.
 
-Key features of the dashboard include dynamic filters, color-coded heatmaps, and clear labels to enhance user interaction and understanding. The choices for visualizations were grounded in best practices, ensuring that the data is represented clearly and meaningfully.
+Key features of the dashboard, available in the file [`Climate_Change_Dashboard.twbx`](visualizations/Climate_Change_Dashboard.twbx), include dynamic filters, color-coded heatmaps, and clear labels to enhance user interaction and understanding. The choices for visualizations were grounded in best practices, ensuring that the data is represented clearly and meaningfully.
 
 ## Insights from the Data
 
@@ -68,9 +69,7 @@ Here are some key insights gathered from the dashboard:
 
 ![Dashboard Screenshot](data/Europe-Climate-Change-Dashboard.png)
 
-The dashboard provides an interactive view of climate change attitudes across Europe. Key features include dynamic filters, color-coded heatmaps, and geographic maps that allow users to explore how different European countries perceive climate change and energy sources. 
-
-To dive deeper into the visualizations and interact with the data, please refer to the Tableau workbook `Climate_Change_Dashboard.twbx`.
+The final dashboard was built with user experience in mind, allowing for easy exploration of climate attitudes across countries. Users can filter by country, energy source, and concern level. For a deeper dive, explore the interactive Tableau dashboard in the file [`Climate_Change_Dashboard.twbx`](visualizations/Climate_Change_Dashboard.twbx).
 
 ## Conclusion
 
@@ -82,3 +81,8 @@ This analysis highlights the diverse perspectives on climate change across Europ
 - [`Climate Data Clean.xlsx`](data/Climate%20Data%20Clean.xlsx): The cleaned dataset used for this analysis.
 - [`ESS Documentation.pdf`](documentation/ESS%20Documentation.pdf): Documentation of the full ESS survey.
 
+## How to Run the Dashboard
+
+1. Download Tableau Desktop (if you don't already have it).
+2. Open the file [`Climate_Change_Dashboard.twbx`](visualizations/Climate_Change_Dashboard.twbx).
+3. Explore the data interactively by filtering for specific countries or energy preferences.
