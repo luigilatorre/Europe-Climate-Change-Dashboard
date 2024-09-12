@@ -74,9 +74,10 @@ This analysis highlights the diverse perspectives on climate change across Europ
 
 ## Files
 
-- `Climate_Change_Dashboard.twbx`: Tableau workbook containing the dashboard.
-- `Climate Data Clean.xlsx`: The cleaned dataset used for this analysis.
-- `ESS Documentation.pdf`: Documentation of the full ESS survey.
+- [`Climate_Change_Dashboard.twbx`](visualizations/Climate_Change_Dashboard.twbx): Tableau workbook containing the dashboard.
+- [`Climate Data Clean.xlsx`](data/Climate%20Data%20Clean.xlsx): The cleaned dataset used for this analysis.
+- [`ESS Documentation.pdf`](documentation/ESS%20Documentation.pdf): Documentation of the full ESS survey.
+
 
 ## How to Run the Dashboard
 
